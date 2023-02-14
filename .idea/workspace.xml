@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1cfc4e7-1a75-47b2-b609-61f2c0ff5c45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/EmailMessenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/SMSMessenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e1cfc4e7-1a75-47b2-b609-61f2c0ff5c45" name="Changes" comment="added dependency injection classes which have implementation using interfaces">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Consumers/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/EmailMessengerInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/SMSMessengerInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/Messenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Consumers/ConsumerAlpha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Messages/EmailMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/EmailMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Messages/SMSMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/SMSMessenger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +64,7 @@
       <module name="DependencyInjectionWithoutFrameworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.testube.*" />
+          <option name="PATTERN" value="org.testube.Consumers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1676357301380</updated>
     </task>
+    <task id="LOCAL-00001" summary="without dependency injection">
+      <created>1676359686214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676359686214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="without dependency injection" />
+    <MESSAGE value="added dependency injection classes which have implementation using interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dependency injection classes which have implementation using interfaces" />
   </component>
 </project>
