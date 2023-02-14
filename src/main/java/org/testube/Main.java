@@ -1,5 +1,9 @@
-package org.testube;public class Main {
+package org.testube;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Consumer consume = new Consumer();
+        consume.processSteps();
+        System.out.println("Finished main process!");
     }
 }
