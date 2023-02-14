@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1cfc4e7-1a75-47b2-b609-61f2c0ff5c45" name="Changes" comment="added dependency injection classes which have implementation using interfaces">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Consumers/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/EmailMessengerInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Injectors/SMSMessengerInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/Messenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Consumers/ConsumerAlpha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Messages/EmailMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/EmailMessenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/testube/Messages/SMSMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/testube/Messages/SMSMessenger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676359686214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added dependency injection classes which have implementation using interfaces">
+      <created>1676362092108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362092108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
